@@ -1,6 +1,9 @@
 package main
 
-import "testing"
+import (
+	"testing"
+	"time"
+)
 
 func TestRegister(t *testing.T) {
 	Register("10005")
@@ -16,12 +19,20 @@ func TestSubscribe(t *testing.T) {
 
 func TestSync(t *testing.T) {
 	body := []byte("1+1=?")
-	Sync(body,0,1,"")
+	for i:=0 ; i<10000;i++{
+		<- time.After(time.Microsecond*30)
+		go Sync(body,0,1,"")
+		<- time.After(time.Microsecond*25)
+	}
+
 }
 
 func TestAsync(t *testing.T) {
 	body := []byte("2+2=?")
-	Async(body,1,1)
+	for i:=0 ; i<100000;i++ {
+		<- time.After(time.Microsecond*30)
+		Async(body, 1, 1)
+	}
 }
 
 func TestBroadcast(t *testing.T) {

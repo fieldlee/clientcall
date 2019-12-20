@@ -1,0 +1,123 @@
+syntax = "proto3";
+
+package proto;
+
+service MidService {
+    rpc Sync(NetReqInfo)            returns (NetRspInfo) {};
+    rpc Async(NetReqInfo)           returns (NetRspInfo) {};
+    rpc Broadcast(NetReqInfo)       returns (NetRspInfo) {};
+    rpc Register(RegisterInfo)      returns (RegisterReturnInfo){};
+    rpc Publish(PublishInfo)        returns (PublishReturnInfo){};
+    rpc Subscribe(SubscribeInfo)    returns (SubscribeReturnInfo){};
+}
+
+service ClientService{
+    rpc Call(CallReqInfo)            returns (CallRspInfo) {};
+    rpc AsyncCall(CallReqInfo)       returns (CallRspInfo) {};
+    rpc AsyncAnswer(CallReqInfo)     returns (CallRspInfo) {};
+}
+
+message NetReqInfo
+{
+    bytes      m_Body   = 1;     ///请求rpc bytes
+    string     service  = 2;     ///请求的注册服务的名称，只有publish用的到
+    string     uuid     = 3;     ///请求数据uuid
+}
+
+message CallReqInfo
+{
+    Net_Pack   m_Body       = 1;     ///请求rpc bytes
+    string     service      = 2;     ///请求的注册服务的名称，只有publish用的到
+    string     uuid         = 3;     ///请求数据uuid
+    string     clientip     = 4;     ///发送对方的ip
+}
+
+message CallRspInfo
+{
+    bytes  m_Net_Rsp = 1;
+}
+
+message NetRspInfo
+{
+    map<uint32,SendResultInfo>  m_Net_Rsp = 1 ;
+    bytes                       m_Err     = 2 ;
+}
+
+message SendResultInfo  {
+    uint32          Key = 1;
+//    int32     SendCount = 2;       // 发送的数量
+//    int32  SuccessCount = 3;       //  成功的数量
+//    int32     FailCount = 4;       //  失败的数量
+//    int32  DiscardCount = 5;       //  丢弃的数量
+//    int32   ReSendCount = 6;       //  重发的数量
+    bytes 	   CheckErr = 2;       //  校验发生的错误
+    bytes        Result = 3;    // 每个请求的处理结果
+}
+
+//message SingleResultInfo  {
+//    uint64  AskSequence = 1;      // 客户端生成的ask 序列号
+//    uint64  SendTimeApp = 2;      // 客户端生成的时间序
+//    int32   MsgType     = 3;      // message 类型
+//    int32   MsgAckType  = 4;      // ack message 类型
+//    uint32  SyncType    = 5;	  ///// 0 同步  1 异步
+// 	bool    IsTimeOut   = 6;
+//    bool    IsDisCard   = 7;
+//    bool    IsResend    = 8;
+//	bytes   Errinfo     = 9;
+// 	bytes   Result      = 10;
+//}
+
+message GJ_Net_Pack
+{
+    map<uint32, Net_Pack> 		m_Net_Pack = 1;								//可缓存多个客户端请求
+}
+
+message Net_Pack
+{
+    bytes						m_Msg = 1;							//每个服务类型定义的protobuf结构，打包成流缓存在该字段
+    message Min_Net_MsgBody
+    {
+        uint64					m_lAsktype 			    = 1;					//请求的服务类型
+        uint64					m_lServerSequence		= 2;					//服务端响应序列号
+        uint64					m_lAskSequence			= 3;					//客户端请求序列号
+        int32					m_cMsgAckType			= 4;					//0 无需回复, 1 回复到发送方, 2 回复到离线服务器
+        int32					m_cMsgType			    = 5;					//消息类型
+        int32					m_sSendCount			= 6;					//同一请求，请求服务端的次数
+        uint32					m_lExpireTime			= 7;					//过期时间，0表示永不过期
+        uint64					m_iSendTimeApp			= 8;					//请求发送的时间，单位秒
+        int32					m_lResult			    = 9;					//0: SUCCESS  !0:FAILURE
+        uint64					m_lBack				    = 10;					//备份数据，默认为0
+        int32					m_iDiscard			    = 11;					//消息是否可以丢弃 0 表示可以丢弃 1表示不可以
+    }
+    Min_Net_MsgBody				m_MsgBody = 2;
+}
+
+message RegisterInfo{
+    string  sequence    = 1;    // 功能号
+}
+
+message RegisterReturnInfo{
+    bool    success          = 1;    // 注册结果
+    bytes   msg              = 2;    // 结果说明
+}
+
+message SubscribeInfo{
+    string  service     = 1;    // 订阅服务号
+}
+
+message SubscribeReturnInfo{
+    bool    success          = 1;    // 订阅结果
+    bytes   msg              = 2;    // 结果说明
+}
+
+message PublishInfo{
+    string  service     = 1;    // 广播服务名称
+}
+
+message PublishReturnInfo{
+    bool    success          = 1;    // 广播结果
+    bytes   msg              = 2;    // 结果说明
+}
+
+/// go get -u github.com/golang/protobuf/tree/master/protoc-gen-go
+/// protoc --go_out=plugins=grpc:. proto/midmsg.proto

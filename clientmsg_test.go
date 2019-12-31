@@ -7,6 +7,7 @@ import (
 
 func TestRegister(t *testing.T) {
 	Register("10005")
+
 }
 
 func TestPublish(t *testing.T) {

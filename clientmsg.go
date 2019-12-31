@@ -1,5 +1,5 @@
 package main
-import "C"
+
 import (
 	"clientcall/call"
 	"clientcall/handle"
@@ -13,7 +13,6 @@ import (
 	"log"
 	"net"
 	"time"
-	"unsafe"
 )
 
 var (
@@ -24,11 +23,6 @@ var (
 
 type MsgHandle struct {}
 
-//export GenerateMemory
-func GenerateMemory(n int)unsafe.Pointer{
-	p := C.malloc(C.sizeof_char * C.ulong(n))
-	return unsafe.Pointer(p)
-}
 
 func (m *MsgHandle)Call(ctx context.Context, info *pb.CallReqInfo) (*pb.CallRspInfo, error) {
 	out := pb.CallRspInfo{}

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8560f395-c6ab-4e99-b5c2-14a4edae00f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientmsg.go" beforeDir="false" afterPath="$PROJECT_DIR$/clientmsg.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientmsg_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/clientmsg_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,14 +14,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clientmsg.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2523">
-              <caret line="142" column="35" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
+            <state relative-caret-position="-2706">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="n#!!block;n#Broadcast#0" />
-                <element signature="n#!!block;n#B#0" />
               </folding>
             </state>
           </provider>
@@ -30,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clientmsg_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="433">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding>
                 <element signature="e#14#43#0" expanded="true" />
               </folding>
@@ -71,7 +70,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/config.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="580">
@@ -119,12 +118,12 @@
       <list>
         <option value="$PROJECT_DIR$/handle.go" />
         <option value="$PROJECT_DIR$/utils/utils.go" />
-        <option value="$PROJECT_DIR$/clientmsg.go" />
         <option value="$PROJECT_DIR$/call/call.go" />
         <option value="$PROJECT_DIR$/handle/handle.go" />
-        <option value="$PROJECT_DIR$/clientmsg_test.go" />
         <option value="$PROJECT_DIR$/config.yaml" />
         <option value="$PROJECT_DIR$/utils/config.go" />
+        <option value="$PROJECT_DIR$/clientmsg_test.go" />
+        <option value="$PROJECT_DIR$/clientmsg.go" />
       </list>
     </option>
   </component>
@@ -259,50 +258,50 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.TestSync in clientcall" />
+        <item itemvalue="Go Test.TestRegister in clientcall" />
         <item itemvalue="Go Test.TestSubscribe in clientcall" />
         <item itemvalue="Go Test.TestPublish in clientcall" />
-        <item itemvalue="Go Test.TestRegister in clientcall" />
         <item itemvalue="Go Test.TestAsync in clientcall" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBroadcast_in_clientcall - 2019.12.19 at 18h 54m 49s.xml">
-      <configuration name="TestBroadcast in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSync_in_clientcall - 2019.12.19 at 21h 34m 23s.xml">
-      <configuration name="TestSync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSync_in_clientcall - 2019.12.19 at 21h 46m 25s.xml">
-      <configuration name="TestSync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSync_in_clientcall - 2019.12.19 at 21h 47m 38s.xml">
-      <configuration name="TestSync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSync_in_clientcall - 2019.12.19 at 21h 48m 14s.xml">
-      <configuration name="TestSync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSync_in_clientcall - 2019.12.19 at 21h 49m 52s.xml">
-      <configuration name="TestSync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAsync_in_clientcall - 2019.12.19 at 21h 51m 21s.xml">
-      <configuration name="TestAsync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAsync_in_clientcall - 2019.12.19 at 21h 52m 35s.xml">
-      <configuration name="TestAsync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAsync_in_clientcall - 2019.12.19 at 22h 00m 03s.xml">
-      <configuration name="TestAsync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 17h 58m 48s.xml">
       <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 17h 59m 40s.xml">
+      <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPublish_in_clientcall - 2019.12.30 at 17h 59m 47s.xml">
+      <configuration name="TestPublish in clientcall" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSubscribe_in_clientcall - 2019.12.30 at 17h 59m 52s.xml">
+      <configuration name="TestSubscribe in clientcall" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSync_in_clientcall - 2019.12.30 at 18h 00m 09s.xml">
+      <configuration name="TestSync in clientcall" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 18h 22m 30s.xml">
+      <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 18h 39m 08s.xml">
+      <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 18h 39m 40s.xml">
+      <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 18h 41m 09s.xml">
+      <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSync_in_clientcall - 2019.12.30 at 23h 36m 14s.xml">
+      <configuration name="TestSync in clientcall" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1132922" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16713405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,31 +350,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientmsg_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientmsg.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2523">
-          <caret line="142" column="35" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!block;n#Broadcast#0" />
-            <element signature="n#!!block;n#B#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,6 +370,26 @@
           <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
           <folding>
             <element signature="e#15#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientmsg_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientmsg.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2706">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#!!block;n#Broadcast#0" />
           </folding>
         </state>
       </provider>

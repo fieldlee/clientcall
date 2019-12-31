@@ -38,8 +38,8 @@ func init()  {
 	//ServerPort = GetSerPort()
 	Address = "0.0.0.0"
 	Port = 8989
-	ServerAddr = "127.0.0.1"
-	ServerPort = 8080
+	ServerAddr = "192.168.1.110"
+	ServerPort = 8989
 }
 
 func GetAddress()string{

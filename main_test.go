@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"testing"
 	"time"
 )
@@ -18,20 +19,28 @@ func TestSubscribe(t *testing.T) {
 }
 
 func TestSync(t *testing.T) {
-	body := []byte("1+1=?")
-	for i:=0 ; i<10000;i++{
+
+	for i:=0 ; i<10;i++{
+		body := []byte(fmt.Sprintf("%d+%d",i,i))
 		<- time.After(time.Microsecond*30)
-		go Sync(body,0,1,"")
+		Sync(body,0,1,"")
 		<- time.After(time.Microsecond*25)
 	}
 
+	//Sync(body,0,1,"")
 }
 
 func TestAsync(t *testing.T) {
-	body := []byte("2+2=?")
-	for i:=0 ; i<100000;i++ {
+	cd := func(body []byte)int{
+		fmt.Println(fmt.Sprintf("callback：%s",body))
+		fmt.Println("====callback=====")
+		return 1
+	}
+
+	for i:=0 ; i<1000;i++ {
+		body := []byte(fmt.Sprintf("%d+%d",i,i))
 		<- time.After(time.Microsecond*30)
-		Async(body, 1, 1)
+		Async(body, 1, 1,cd)
 	}
 }
 

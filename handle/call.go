@@ -1,4 +1,4 @@
-package call
+package handle
 
 import (
 	pb "clientcall/proto"
@@ -28,7 +28,7 @@ func CallSync(mbody []byte,uuid string)(*pb.NetRspInfo,error){
 	return rsp,nil
 }
 
-func CallAsync(mbody []byte)(*pb.NetRspInfo,error){
+func CallAsync(mbody []byte,uid string)(*pb.NetRspInfo,error){
 	caddr := fmt.Sprintf("%v:%v",utils.ServerAddr,utils.ServerPort)
 	conn, err := grpc.Dial(caddr, grpc.WithInsecure())
 	if err != nil {
@@ -38,7 +38,7 @@ func CallAsync(mbody []byte)(*pb.NetRspInfo,error){
 	c := pb.NewMidServiceClient(conn)
 	ctx := context.Background()
 
-	rsp, err := c.Async(ctx,&pb.NetReqInfo{M_Body:mbody,Service:""})
+	rsp, err := c.Async(ctx,&pb.NetReqInfo{M_Body:mbody,Service:"",Uuid:uid})
 
 	//////////////////////异步处理 ， 调用客户端的接口，异步发送
 	if err != nil {

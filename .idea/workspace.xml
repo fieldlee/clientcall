@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8560f395-c6ab-4e99-b5c2-14a4edae00f5" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/handle/call.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/pool.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/pool_test.go" afterDir="false" />
+    <list default="true" id="5147010c-7ee5-4c68-a891-5e6ebe296ca2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/clientcall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clientcall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call/call.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientmsg.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientmsg_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/midmsg.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/midmsg.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/midmsg.proto" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientmsg.go" beforeDir="false" afterPath="$PROJECT_DIR$/clientmsg.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientmsg_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/clientmsg_test.go" afterDir="false" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,99 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
-=======
-        <entry file="file://$PROJECT_DIR$/clientmsg.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2706">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="n#!!block;n#Broadcast#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientmsg_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-              <folding>
-                <element signature="e#13#257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/handle/handle.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding>
-                <element signature="e#16#161#0" expanded="true" />
-              </folding>
-=======
-        <entry file="file://$PROJECT_DIR$/config.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/call/call.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handle/call.go">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="29">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-=======
-            <state relative-caret-position="145">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proto/midmsg.pb.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/config.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-              <folding>
-                <element signature="e#17#124#0" expanded="true" />
-                <element signature="n#!!block;n#CallSync#0" />
-                <element signature="n#!!block;n#CallAsync#0" />
-                <element signature="n#!!block;n#CallBroadcast#0" />
-                <element signature="n#!!block;n#Register#0" />
-                <element signature="n#!!block;n#Publish#0" />
-                <element signature="n#!!block;n#Subscribe#0" />
-              </folding>
+            <state relative-caret-position="174">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -128,63 +26,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="166">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="18" />
-=======
-            <state relative-caret-position="102">
-              <caret line="209" selection-start-line="209" selection-end-line="209" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handle/handle.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
+            <state relative-caret-position="153">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Go File" />
-      </list>
-    </option>
-  </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/.." />
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/handle.go" />
-        <option value="$PROJECT_DIR$/utils/utils.go" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/handle/handle.go" />
-        <option value="$PROJECT_DIR$/proto/midmsg.proto" />
-        <option value="$PROJECT_DIR$/utils/config.go" />
-        <option value="$PROJECT_DIR$/clientmsg_test.go" />
-        <option value="$PROJECT_DIR$/utils/pool_test.go" />
-        <option value="$PROJECT_DIR$/utils/pool.go" />
-        <option value="$PROJECT_DIR$/clientmsg.go" />
-        <option value="$PROJECT_DIR$/call/call.go" />
+        <option value="$PROJECT_DIR$/../clienttest/main.go" />
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/handle/call.go" />
-=======
-        <option value="$PROJECT_DIR$/call/call.go" />
-        <option value="$PROJECT_DIR$/handle/handle.go" />
-        <option value="$PROJECT_DIR$/config.yaml" />
-        <option value="$PROJECT_DIR$/utils/config.go" />
-        <option value="$PROJECT_DIR$/clientmsg_test.go" />
-        <option value="$PROJECT_DIR$/clientmsg.go" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
       </list>
     </option>
   </component>
@@ -200,7 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,59 +73,26 @@
               <item name="clientcall" type="b2602c69:ProjectViewProjectNode" />
               <item name="clientcall" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="clientcall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientcall" type="462c0819:PsiDirectoryNode" />
-              <item name="handle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientcall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientcall" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientcall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientcall" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientcall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientcall" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../midmsg" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/utils" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/handle" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,63 +106,17 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build clientmsg.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-=======
-  <component name="RunManager" selected="Go Test.TestSync in clientcall">
-    <configuration name="TestAsync in clientcall" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-      <module name="clientcall" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="clientcall" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestAsync$" />
-      <method v="2" />
-    </configuration>
-<<<<<<< HEAD
+  <component name="RunManager" selected="Go Test.TestAsync in clientcall">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="TestPublish in clientcall" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
       <module name="clientcall" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <package value="clientcall" />
       <directory value="$PROJECT_DIR$/" />
-<<<<<<< HEAD
-      <method v="2" />
-    </configuration>
-    <configuration name="TestAll in clientcall/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-=======
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestPublish$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRegister in clientcall" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-      <module name="clientcall" />
-      <working_directory value="$PROJECT_DIR$/utils" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="clientcall/utils" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-<<<<<<< HEAD
-      <pattern value="^TestAll$" />
       <method v="2" />
     </configuration>
     <configuration name="TestAsync in clientcall" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-=======
-      <pattern value="^TestRegister$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSubscribe in clientcall" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
       <module name="clientcall" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -338,141 +124,37 @@
       <package value="clientcall" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-<<<<<<< HEAD
       <pattern value="^TestAsync$" />
-=======
-      <pattern value="^TestSubscribe$" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
       <method v="2" />
     </configuration>
-    <configuration name="TestSync in clientcall" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Tox" factoryName="Tox">
       <module name="clientcall" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="clientcall" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSync$" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
+        <item itemvalue="Go Test.TestAsync in clientcall" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.TestSync in clientcall" />
-        <item itemvalue="Go Build.go build clientmsg.go" />
-        <item itemvalue="Go Test.TestAsync in clientcall" />
-        <item itemvalue="Go Test.TestAll in clientcall/utils" />
-=======
-        <item itemvalue="Go Test.TestSync in clientcall" />
-        <item itemvalue="Go Test.TestRegister in clientcall" />
-        <item itemvalue="Go Test.TestSubscribe in clientcall" />
-        <item itemvalue="Go Test.TestPublish in clientcall" />
-        <item itemvalue="Go Test.TestAsync in clientcall" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
       </list>
     </recent_temporary>
-  </component>
-  <component name="TestHistory">
-<<<<<<< HEAD
-    <history-entry file="TestAll_in_clientcall_utils - 2020.01.15 at 22h 10m 07s.xml">
-      <configuration name="TestAll in clientcall/utils" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAll_in_clientcall_utils - 2020.01.15 at 22h 26m 22s.xml">
-      <configuration name="TestAll in clientcall/utils" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAsync_in_clientcall - 2020.01.15 at 22h 29m 00s.xml">
-      <configuration name="TestAsync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAsync_in_clientcall - 2020.01.15 at 22h 31m 27s.xml">
-      <configuration name="TestAsync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAsync_in_clientcall - 2020.01.15 at 22h 35m 00s.xml">
-      <configuration name="TestAsync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAll_in_clientcall_utils - 2020.01.15 at 22h 36m 32s.xml">
-      <configuration name="TestAll in clientcall/utils" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAll_in_clientcall_utils - 2020.01.15 at 22h 40m 31s.xml">
-      <configuration name="TestAll in clientcall/utils" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAll_in_clientcall_utils - 2020.01.15 at 22h 41m 33s.xml">
-      <configuration name="TestAll in clientcall/utils" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAsync_in_clientcall - 2020.01.15 at 23h 04m 07s.xml">
-      <configuration name="TestAsync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSync_in_clientcall - 2020.01.15 at 23h 17m 41s.xml">
-=======
-    <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 17h 58m 48s.xml">
-      <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 17h 59m 40s.xml">
-      <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPublish_in_clientcall - 2019.12.30 at 17h 59m 47s.xml">
-      <configuration name="TestPublish in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSubscribe_in_clientcall - 2019.12.30 at 17h 59m 52s.xml">
-      <configuration name="TestSubscribe in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSync_in_clientcall - 2019.12.30 at 18h 00m 09s.xml">
-      <configuration name="TestSync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 18h 22m 30s.xml">
-      <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 18h 39m 08s.xml">
-      <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 18h 39m 40s.xml">
-      <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestRegister_in_clientcall - 2019.12.30 at 18h 41m 09s.xml">
-      <configuration name="TestRegister in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSync_in_clientcall - 2019.12.30 at 23h 36m 14s.xml">
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-      <configuration name="TestSync in clientcall" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-<<<<<<< HEAD
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49800798" visible="true" weight="0.19349411" />
-      <window_info id="Structure" order="1" sideWeight="0.50199205" side_tool="true" weight="0.19349411" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49971956" visible="true" weight="0.42694065" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32990867" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32990867" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50028044" side_tool="true" weight="0.42694065" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3344749" />
-=======
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16713405" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25406617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5742009" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32990867" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32990867" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,9 +162,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3344749" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3321918" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -492,168 +173,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/proto/midmsg.pb.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/utils.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="209" selection-start-line="209" selection-end-line="209" />
-=======
-    <entry file="file://$PROJECT_DIR$/call/call.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/model.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/proto/midmsg.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="121" column="53" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-          <folding>
-            <element signature="e#15#58#0" expanded="true" />
-          </folding>
-=======
-    <entry file="file://$PROJECT_DIR$/proto/midmsg.pb.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handle/handle.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="87">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/pool_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/pool.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="153">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/call/call.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handle/handle.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#16#161#0" expanded="true" />
-=======
-        <state relative-caret-position="102">
-          <caret line="209" selection-start-line="209" selection-end-line="209" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-          <folding>
-            <element signature="e#15#58#0" expanded="true" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/handle/call.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#17#124#0" expanded="true" />
-            <element signature="n#!!block;n#CallSync#0" />
-            <element signature="n#!!block;n#CallAsync#0" />
-            <element signature="n#!!block;n#CallBroadcast#0" />
-            <element signature="n#!!block;n#Register#0" />
-            <element signature="n#!!block;n#Publish#0" />
-            <element signature="n#!!block;n#Subscribe#0" />
-=======
-    <entry file="file://$PROJECT_DIR$/clientmsg_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#43#0" expanded="true" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
-          <folding>
-            <element signature="e#13#257#0" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/clientmsg.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2706">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="n#!!block;n#Broadcast#0" />
->>>>>>> 6f96cd659e9ce7c4fc7483c60349ed7c4dccf591
-          </folding>
+        <state relative-caret-position="174">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
